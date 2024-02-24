@@ -1,0 +1,288 @@
+
+/* body margin set to 0 so that flexbox bg colors fill */
+body { 
+    margin: 0px;
+    margin-bottom: px;
+    background-color: #060606;
+}
+
+a:link, a:visited { /*font formatting for links*/
+    color:#ba9801
+}
+
+.header { /* left aligned header*/
+    display: flex;
+    justify-content: left;
+    background-color: #030708;
+    padding-left: 20px;
+}
+
+.logo-text { /* font formatting for logo text*/
+    color: white;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    padding-left: 20px;
+}
+
+.navbar { /* font formatting for navbar*/
+    display: flex;
+    color: white;
+    margin-left: auto;
+}
+
+.navbar-content { /* positioning for navbar content */
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    margin-left: 70px;
+}
+
+
+.navbar-content > a { /* formatting for the anchor tag in the nav bar */
+    color: grey;
+    text-decoration: none;
+}
+
+.navbar-content > a:hover { /* hover effects */
+    color: white;
+}
+
+.space { /* space */
+    width: 30px;
+}
+
+.featured-photo { /*resizing of photo*/
+    height: 30%;
+    width: 30%;
+}
+
+.about-me { /*flexbox formatting for about me*/
+    display: flex;
+    justify-content: left;
+    background-color: #030708;
+    padding: 10px;
+}
+
+.autobiography { /*font formatting for autobiography*/
+    margin-left: 100px;
+    justify-content: center;
+    color: lightgrey;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: large;
+}
+
+.autobiography-content { /*positioning of autobiography content*/
+    text-align: justify;
+    width: 550px;
+}
+
+.my-name { /*font formatting for my name*/
+    color: white;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    margin-top: 5px;
+    font-size: 50px;
+}
+
+.job-position { /*font formatting for job position*/
+    color: #ba9801;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    margin-bottom: 0px;
+}
+
+
+
+.scroll-down-border { /*formatting for my scroll down border*/
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+    background-color: #ffcc00;
+    rotate: -0.75deg; /* rotate for aesthetic purposes*/
+    padding: 10px;
+    position: relative; /*change position*/
+    bottom: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.contactme-border { /*same as above but for contactme border*/
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+    background-color: black;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    rotate: -0.75deg;
+    padding: 10px;
+    position: relative;
+    bottom: 270px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    color: white;
+}
+
+
+.project-header { /*font formatting for project header*/
+    display: flex;
+    justify-content: center;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 50px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.pheader2 { /*font formatting for second word*/
+    color: #ffcc00;
+}
+
+.previous-projects { /*flexbox formatting for previous projects*/
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    
+}
+
+.project { /*resizing for the project images*/
+    height: 30%;
+    width: 30%;
+}
+
+#blackjack {
+    height: 10%;
+    width: 10%; 
+}
+
+.project-names-container { /*flexbox formatting for project names*/
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-names { /*font formatting for project names*/
+    color: white;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    
+}
+/* position formatting for each of the projects' respective names */
+#blackjack-name { 
+    position: relative;
+    bottom: 15px;
+    right: -5px;
+}
+
+#rps {
+    position: relative;
+    bottom: 40px;
+    right: -38px;
+}
+
+#simplex {
+    position: relative;
+    bottom: 70px;
+    right: 50px;
+}
+
+.background-text { /*background text formatting*/
+    color: white;
+    font-size: 210px;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    bottom: 150px;
+    opacity: 10%;
+    z-index: -1;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.skills-container { /*flexbox formatting for skills*/
+    position: relative;
+    bottom: 250px;
+    background-color: #ffcc00;
+    padding: 0px;
+}
+
+#skills-header { /*font formatting for skills header*/
+    display: flex;
+    justify-content: right;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 50px;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#skills-header-light { /*font formatting for light skills header*/
+    opacity: 15%;
+}
+
+.skills { /*font formatting for skills*/
+    display: flex;
+    margin-left: 100px;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 30px;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.skills-img { /*image formatting for skills image*/
+    height: 70%;
+    width: 70%;
+    padding: 0px;
+}
+
+.footer { /*flexbox formatting for footer */
+    display: flex;
+    margin: 0px;
+    margin-left: 10px;
+    position: relative;
+    bottom: 140px;
+    justify-content: space-around;
+    color: white;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+#ready { /*position formatting for ready*/
+    margin-top: 70px;
+}
+
+.contact-content { /*font formatting for contacts*/
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
